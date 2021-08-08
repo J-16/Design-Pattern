@@ -1,22 +1,18 @@
 package Materials;
 
-import DuckProperties.Flyable;
-import DuckProperties.Quackable;
+import DuckProperties.NoFly;
+import DuckProperties.noQuack;
 import duck.Duck;
 
-public class decoyDuck extends Duck implements Quackable, Flyable {
+public class decoyDuck extends Duck{
+
+    public decoyDuck(){
+        super(new NoFly(),new noQuack());
+    }
 
     @Override
     public void display() {
         System.out.println("Looks like decoy Duck");
     }
 
-    public void quack() {
-        System.out.println("Doesn't quack");
-    }
-
-    @Override
-    public void fly() {
-        System.out.println("Doesn't Fly");
-    }
 }

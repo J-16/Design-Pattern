@@ -11,6 +11,7 @@ public class Main {
 
         RedHeadDuck redHeadDuck = new RedHeadDuck();
         redHeadDuck.display();
+        System.out.println("Red Head Duck can Do all these");
         redHeadDuck.quack();
         redHeadDuck.swim();
         redHeadDuck.fly();
@@ -19,6 +20,7 @@ public class Main {
 
         MallardDuck mallardDuck = new MallardDuck();
         mallardDuck.display();
+        System.out.println("Mallard Duck can Do all these");
         mallardDuck.quack();
         mallardDuck.swim();
         redHeadDuck.fly();
@@ -27,13 +29,16 @@ public class Main {
 
         RubberDuck rubberDuck = new RubberDuck();
         rubberDuck.display();
+        System.out.println("Rubber Duck can Do all these");
         rubberDuck.quack();
         rubberDuck.swim();
         rubberDuck.fly();
 
         System.out.println();
+
         decoyDuck decoyDuck = new decoyDuck();
         decoyDuck.display();
+        System.out.println("Decoy Duck can Do all these");
         decoyDuck.quack();
         decoyDuck.swim();
         decoyDuck.fly();
