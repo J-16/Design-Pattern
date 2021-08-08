@@ -1,9 +1,9 @@
 package duck;
 
 public abstract class Duck {
-    public void quack(){
-        System.out.println("Quack Quack");
-    }
+
+    //QUACK AND FLY ARE MOVED TO INTERFACE AS NOT ALL DUCKS QUACKS AND FLIES.
+
     public void swim(){
         System.out.println("Swimming");
     }

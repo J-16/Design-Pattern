@@ -1,2 +1,5 @@
-package DuckProperties;public interface Flyable {
+package DuckProperties;
+
+public interface Flyable {
+    void fly();
 }
