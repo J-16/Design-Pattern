@@ -6,6 +6,7 @@ import DuckPropertiesInterface.Quackable;
 public abstract class Duck {
 
     //QUACK AND FLY ARE MOVED TO INTERFACE AS NOT ALL DUCKS QUACKS AND FLIES.
+
     Flyable flyable;
     Quackable quackable;
 
